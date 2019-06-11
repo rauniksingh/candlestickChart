@@ -1,0 +1,24 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "hammerassignment",
+        "app_desc": "candlestick graph",
+        "node_port": 8080,
+        "database": "dev_learnapp"
+    },
+    "testing": {
+        "config_id": "testing",
+        "node_port": 4000,
+        "database": "test_learnapp"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8080,
+        "database": "stag_learnapp"
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8080,
+        "database": "prod_learnapp"
+    }
+}
